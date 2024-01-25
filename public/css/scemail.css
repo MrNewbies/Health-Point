@@ -1,0 +1,143 @@
+*{
+    padding: 0;
+    margin: 0;
+    background-color: #BEFFF7;
+    font-family: sans-serif;
+}
+
+body{
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+}
+
+.card{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+    /* align-items: center; */
+    justify-content:start;
+    width: 85.5%;
+    height: 75.5%;
+    background: white;
+    border-radius: 40px 40px 40px 40px;
+    box-shadow: 10px 10px 40px 5px rgba(0, 0, 0, 0.1);
+}
+
+.left{
+    width: 40.3%;
+    height: 100% !important;
+    background: white;
+    border-radius: 40px 0 0 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.left .top_left{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: none;
+}
+
+.left .top_left h1{
+    font-size: 43px;
+    background: none;
+}
+
+.left .top_left .mail_image{
+    background: none;
+}
+
+.left .top_left .mail_image img{
+    width: 87%;
+    height: auto;
+    background: none;
+}
+
+.left .instructions{
+    text-align:center;
+    margin-top: 8%;
+    margin-bottom: 3%;
+}
+
+.left .instructions p{
+    background: white;
+}
+
+.left .enter_email{
+    background: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:last baseline;
+}
+
+.left .enter_email h4{
+    background: none;
+}
+
+.left .enter_email input{
+    background: #ffffff;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: #dadada;
+    border-width: 2px;
+    width: 78.6%;
+    height: 35px;
+}
+
+.left .wbutton{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    background: none;
+}
+
+.left button{
+    background: #03ceb5;
+    border-radius: 13px;
+    border: none;
+    width: 216px;
+    height: 50px;
+    left: 384px;
+    top: 712px;
+    box-shadow: 0px 10px 20px 1px rgba(3, 206, 181, 0.4);
+    color: white;
+    font-size: 17px;
+    cursor: pointer;
+    margin-top: 10vh;
+}
+
+.right {
+    width: 59.7%;
+    height: 100%;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    background: linear-gradient(
+    270deg,
+    rgba(102, 195, 255, 1) 35.41666567325592%,
+    rgba(102, 195, 255, 0) 100%
+  );
+    border-radius: 0 40px 40px 0;
+}
+
+
+
+.right img{
+    width: 57.9%;
+    height: auto;
+    background: none;
+}
+
+

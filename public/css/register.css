@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "roboto";
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container{
+    width: 100%;
+    max-width: 1230px;
+    height: 650px;
+    background: #FFF;
+    border-radius: 40px;
+    box-shadow: 10px 10px 40px 5px rgba(0, 0, 0, 0.10);
+}
+
+.container-form .form-container-sign-up{
+    display: flex;
+}
+
+form{
+    display: flex;
+}
+
+.container-form .content{
+    display: flex;
+    margin-top: 50px;
+}
+
+.form-container-sign-up h1{
+    font-weight: bolder;
+    margin-bottom: 30px;
+}
+
+form .input-field{
+    width: 390px;
+    height: 45px;
+    margin-bottom: 40px;
+    font-weight: 500;
+}
+
+.leftinput .text{
+    padding-top: 40px;
+    font-size: 15px;
+    font-weight: 400;
+    color: #1F1F1F;
+}
+
+.leftinput a{
+    color: #03CEB5;
+}
+
+.rightinput{
+    margin-top: 69px;
+    margin-left: 30px;
+}
+
+form .input-field input{
+    width: 390px;
+    height: 38px;
+    flex-shrink: 0;
+    font-size: 15px;
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px solid #DADADA;
+    background: #FFF;
+}
+
+.input-field label{
+    color: #1F1F1F;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: bold;
+    letter-spacing: 0.9px;
+}
+
+.form-container-sign-up img{
+    display: flex;
+    width: 400px;
+    height: 650px;
+    border-radius: 40px;
+    -webkit-mask-image: linear-gradient(88.5deg,#FFF 0%, rgba(255, 255, 255, 0.00) 95.83%);
+    mask-image: linear-gradient(88.5deg,#FFF 0%, rgba(255, 255, 255, 0.00) 95.83%);;
+}
+
+.rightinput button{
+    border: none;
+    margin-left: 100px;
+    margin-top: 20px;
+    width: 285px;
+    height: 50px;
+    border-radius: 13px;
+    background: #03CEB5;
+    box-shadow: 0px 10px 20px 1px rgba(3, 206, 181, 0.40);
+    color: #FFF;
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.rightinput button:hover{
+    transform: scale(1.05);
+}
+
+.rightinput button a{
+    text-decoration: none;
+    color: #FFF;
+}
+
+.error-popup {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    background-color: #FFB6C1; /* Light Pink color */
+    color: #800000; /* Maroon color */
+    border: 1px solid #800000;
+    border-radius: 5px;
+    z-index: 1;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    animation: fadeIn 0.5s ease-in-out; /* Gunakan animasi fade */
+}
+
+.close-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+    font-size: 20px;
+    /* float: right;
+    font-size: 20px;
+    cursor: pointer; */
+}
+
+#error-message {
+    margin: 0;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}

@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+}
+
+body{
+    background: radial-gradient(178.71% 124.94% at 0% 0%, #6499E9 33.04%, rgba(100, 153, 233, 0.00) 100%);
+}
+
+.wrapperprofile{
+    /* width: fit-content; */
+    margin: 30px;
+}
+
+.userimage{
+    display: flex;
+    justify-content: center;
+}
+
+.userimage img{
+    width: 18%;
+    height: 41.9%;
+    border-radius: 50%;
+}
+
+.username{
+    display: flex;
+    justify-content: center;
+    color: white;
+    margin: 10px;
+    /* width: 23.3%; */
+}
+
+.username h1{
+    /* width: 23.3%; */
+    font-size: 38;
+}
+
+.info{
+    background-color: white;
+    height: 100%;
+    width: 100%;
+    border-radius: 50px 50px 0 0;
+}
+
+.infopage{
+    /* display: flex;
+    justify-content: center; */
+    padding-top: 10px;
+    border-bottom: #6499E9;
+}
+
+.infopage .text{
+    display: flex;
+    justify-content: center;
+}
+
+.infopage .line{
+    display: flex;
+    justify-content: center;
+}
+
+.infopage .line .verticle-line{
+    border-radius: 50px 50px 50px 50px;
+}
+
+.container-info{
+    display: flex;
+    justify-content: center;
+    gap: 27.9%;
+    margin: 40px;
+}
+
+.container-left{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.container-right{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.sub-information{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.sub-information h2{
+    color: #989898;
+}
+
+.info button{
+    border: none;
+    width: 285px;
+    height: 50px;
+    border-radius: 13px;
+    background: #03CEB5;
+    box-shadow: 0px 10px 20px 1px rgba(3, 206, 181, 0.40);
+    color: #FFF;
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.info button a{
+    text-decoration: none;
+    color: #FFF;
+}
+
+.buttonplacement{
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+    margin-right: 6%;
+}
+
+.logout button{
+    margin-top: 16.5%;
+}
+
+
